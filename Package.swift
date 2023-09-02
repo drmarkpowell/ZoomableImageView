@@ -5,7 +5,7 @@ import PackageDescription
 
 let package = Package(
     name: "ZoomableImageView",
-    platforms: [.iOS(.v13), .tvOS(.v13), .visionOS(.v1)],
+    platforms: [.iOS(.v13), .tvOS(.v13)],
     products: [
         .library(
             name: "ZoomableImageView",
