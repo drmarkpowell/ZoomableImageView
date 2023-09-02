@@ -4,7 +4,7 @@
 //
 //  Created by Abenx on 2021/8/2.
 //
-#if os(iOS) || os(tvOS)
+#if os(iOS) || os(tvOS) || os(visionOS)
 import SwiftUI
 
 /// Simple SwiftUI ImageView that enables dragging and zooming.
